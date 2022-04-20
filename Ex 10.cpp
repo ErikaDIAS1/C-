@@ -4,7 +4,7 @@
 using namespace std;
 
     int main ()
-        {
+        { setlocale(LC_ALL, "Portuguese");
             float celsius, fahrenheit, div;
             int constante;
 
@@ -14,6 +14,7 @@ using namespace std;
                  div = 9/5;
                  fahrenheit =  div * celsius + constante;
             cout << "Em fahrenheit: "<< fahrenheit << endl;
+         return 0;
 
         }
 
