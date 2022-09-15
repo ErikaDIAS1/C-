@@ -1,0 +1,28 @@
+#include <iostream>
+#include <locale.h>
+
+using namespace std;
+//Escreva uma classe cujos objetos representam alunos matriculados em uma disciplina.
+Cada objeto dessa classe deve guardar os seguintes dados do aluno: matrícula, nome, 2
+notas de prova, 1 nota de trabalho e a nota de recuperação. Escreva os seguintes
+métodos para esta classe://
+
+Class Aluno {
+ private:
+ string matricula;
+ string nome;
+ float notaP1, notaP2, notaT, rec;
+ 
+ public:
+  void setMatricula (float m){
+      matricula = m;
+      }
+   float getMatricula (){
+    return matricula
+   
+  
+};
+
+
+
+
